@@ -1,9 +1,27 @@
 import React from 'react';
+import { VscGlobe } from "react-icons/vsc";
+import { IoSearch } from "react-icons/io5";
+import style from '../Style/header.module.css';
+import { FaSignInAlt } from 'react-icons/fa';
 
 function Header() {
   return (
-    <header>
-      <h1>WorldSync</h1>
+    <header className={style.siteheader}>
+      <nav className={style.navtop}>
+        <div className={style.container}>
+          <span className={style.brandlogo}>1Worldsync</span>
+          <div className={style.searchbar}>
+            <div className={style.hexagon}>
+              <input type="text" placeholder="Search..." className={style.searchinput} />
+              <button className={style.searchbtn}><IoSearch /></button>
+            </div>
+          </div>
+          <VscGlobe className={style.globeicon} />
+          <button className={style.loginbtn}>
+            <FaSignInAlt /> Login
+          </button>
+        </div>
+      </nav>
     </header>
   );
 }

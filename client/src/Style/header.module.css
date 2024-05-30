@@ -1,0 +1,136 @@
+.siteheader {
+    background-color: #006666;
+    padding: 10px 0;
+  }
+  
+  .navtop {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+  }
+  
+  .container {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px;
+    margin-left:30px ;
+    padding: 0 15px;
+  }
+  
+  .brandlogo {
+    font-size: 1.8em; /* Increased font size */
+    background: linear-gradient(135deg, #f5f4f4, #ffffff);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;
+    margin-right: 20px;
+    font-family: 'Pacifico', cursive; /* Custom font for a unique look */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+    transition: transform 0.3s;
+  }
+  
+  .brandlogo:hover {
+    transform: scale(1.1); /* Slight scale effect on hover */
+  }
+  
+  .searchbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+    margin: 0 15px;
+  }
+  
+  .hexagon {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 350px; /* Adjusted width for better responsiveness */
+    height: 40px;
+    background-color: #fff;
+    clip-path: polygon(5% 0%, 90% 0%, 100% 50%, 90% 100%, 5% 100%, 0% 50%);
+  }
+  
+  .searchinput {
+    flex-grow: 1;
+    height: 100%;
+    border: none;
+    padding: 0 15px;
+    outline: none;
+    background-color: transparent;
+    font-size: 1em;
+  }
+  
+  .searchbtn {
+    height: 100%;
+    border: none;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 15px;
+    cursor: pointer;
+  }
+  
+  .searchbtn svg {
+    color: #006666;
+    font-size: 1.2em;
+  }
+  
+  .globeicon {
+    font-size: 1.5em;
+    color: #fff;
+    margin-right: 20px;
+  }
+  
+  .loginbtn {
+    background-color: #fff;
+    color: #006666;
+    border: none;
+    border-radius: 20px;
+    padding: 8px 15px;
+    display: flex;
+    align-items: center;
+    font-size: 1em;
+    cursor: pointer;
+  }
+  
+  .loginbtn svg {
+    margin-right: 5px;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .container {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .brandlogo {
+      margin-bottom: 10px;
+    }
+  
+    .searchbar {
+      width: 100%;
+      margin: 10px 0;
+    }
+  
+    .hexagon {
+      width: 100%;
+      clip-path: polygon(5% 0%, 95% 0%, 100% 50%, 95% 100%, 5% 100%, 0% 50%);
+    }
+  
+    .globeicon {
+      margin-right: 10px;
+    }
+  
+    .loginbtn {
+      width: 100%;
+      text-align: center;
+      justify-content: center;
+      margin-top: 10px;
+    }
+  }
+  
