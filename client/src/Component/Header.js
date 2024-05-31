@@ -19,10 +19,16 @@ function Header() {
             </div>
           </div>
           <VscGlobe className={style.globeicon} />
+          <Link to={"/login"}>
           <button className={style.loginbtn}>
             <FaSignInAlt /> Login
           </button>
-        
+          </Link>
+          <Link to={"/register"}>
+          <button className={style.loginbtn}>
+            <FaSignInAlt /> Register
+          </button>
+          </Link>
         </div>
       </nav>
     </header>
