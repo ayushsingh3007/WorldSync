@@ -3,9 +3,9 @@ import React from 'react';
 function Post() {
   return (
     <section>
-      <h2>Post</h2>
+      <span>Post</span>  <span>praise</span>
       <div>
-        <p>Praise</p>
+        
         <textarea placeholder="Write your post here..."></textarea>
         <button>Post</button>
       </div>
