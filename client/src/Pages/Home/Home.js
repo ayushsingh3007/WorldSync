@@ -1,13 +1,52 @@
 import React from 'react'
 import style from '..//../Style/home.module.css';
 import { FaPlay } from 'react-icons/fa';
+import Sliders from 'react-slick';
+import 'slick-carousel/slick/slick.css';
+import 'slick-carousel/slick/slick-theme.css';
 
 const Home = () => {
+
+    const slider = {
+        dots: true,
+        infinite: true,
+        speed: 500,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 1500,
+        arrows: false
+    };
+
     return (
         <div>
             <div className={style.container_main_slider}>
                 <div className={style.container_slider}>
-                    <h1>We make sure your <br className={style.d_block} />product content</h1>
+                    <h1 className={style.container_slider_h1}>We make sure your <br className={style.d_block} />product content</h1>
+                    <div className={style.container_slider_swipper}>
+                        <Sliders {...slider}>
+                            <div className={style.container_main_slider_item_one}>
+                                <div className={style.container_main_slider_item_one_heading}>
+                                    <h1 className={style.container_main_slider_item_four_consistent}>is consistent</h1>
+                                </div>
+                            </div>
+                            <div className={style.container_main_slider_item_two}>
+                                <h1 className={style.container_main_slider_item_four_accurate}>is accurate</h1>
+                            </div>
+                            <div className={style.container_main_slider_item_three}>
+                                <h1 className={style.container_main_slider_item_four_organized}>is organized</h1>
+                            </div>
+                            <div className={style.container_main_slider_item_one}>
+                                <h1 className={style.container_main_slider_item_four_converts}>converts</h1>
+                            </div>
+                            <div className={style.container_main_slider_item_four}>
+                                <h1 className={style.container_main_slider_item_four_shine}>shines</h1>
+                            </div>
+                            <div className={style.container_main_slider_item_two}>
+                                <h1 className={style.container_main_slider_item_four_relevant}>is relevant</h1>
+                            </div>
+                        </Sliders>
+                    </div>
                     <h2 className={style.container_slider_h2}>See how the leading platform for product content orchestration will simplify<br className={style.d_none} />
                         the creation and distribution of your product content.</h2>
                     <div className={style.container_slider_button_div}>
@@ -74,11 +113,8 @@ const Home = () => {
                                     is consistent across every channel in a fast-moving market?</p>
                                 <p className={style.video_container_data_content_p}>With 1WorldSync  the leading Product Content Orchestration platform  creating,
                                     distributing and receiving product content is seamless.</p>
-
                             </div>
-
                         </div>
-
                     </div>
                 </div>
                 <div className={style.intro_cards}>
@@ -86,15 +122,10 @@ const Home = () => {
                         <div className={style.intro_cards_data}>
                             <div className={style.intro_cards_data_row}>
                                 <h2 className={style.intro_cards_data_row_h2}>What are your product content needs?</h2>
-
                             </div>
-
                         </div>
-
                     </div>
-
                 </div>
-
             </div>
             <div className={style.container_stats}>
                 <div className={style.container_stats_row}>
@@ -146,12 +177,9 @@ const Home = () => {
                     <div className={style.g2_badge_container_inner}>
                         <div className={style.g2_badge_container_inner_data}>
                             <img src='/home/g2_1worldsync_pim_leaders-summer23.webp' alt='.' />
-
                         </div>
                     </div>
-
                 </div>
-
             </div>
             <div className={style.zig_zag_arrow}>
                 <div className={style.zig_zag_arrow_container}>
