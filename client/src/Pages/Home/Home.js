@@ -1,6 +1,7 @@
 import React from 'react'
 import style from '..//../Style/home.module.css';
 
+
 const Home = () => {
     return (
         <div>
@@ -37,6 +38,7 @@ const Home = () => {
             </div>
         </div>
     )
+
 }
 
 export default Home
