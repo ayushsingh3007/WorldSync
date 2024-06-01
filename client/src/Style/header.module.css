@@ -2,6 +2,8 @@
     background-color: #006666;
     padding: 10px 0;
     box-sizing: border-box;
+    position: sticky;
+    top: 0%;
   }
   
   .navtop {

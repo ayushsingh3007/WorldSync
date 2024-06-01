@@ -5,6 +5,19 @@ import { LuLogOut } from "react-icons/lu";
 
 function Sidebar() {
   return (
+<<<<<<< HEAD
+      <ul className={Style.SidebarContainer}>
+        <li><IoHomeOutline /> Home</li>
+        <li>Leaves</li>
+        <li>Continual</li>
+        <li>Continuation</li>
+        <li>Edit Profile</li>
+        <li>Add Employee
+        </li>
+        <li>Add post </li>
+      </ul>
+
+=======
         <>
         <ul className={Style.SidebarContainer}>
           <li><IoHomeOutline /> Home</li>
@@ -26,6 +39,7 @@ function Sidebar() {
          
         </>
     
+>>>>>>> 2243fc356576a5c5da9442e29bd0b7492581663a
   );
 }
 
