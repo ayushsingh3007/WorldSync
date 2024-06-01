@@ -1,15 +1,17 @@
 import React from 'react';
 import QuickRecap from './QuickRecap';
+import style from '../Style/MainComponent.module.css';
 import Announcements from './Announcements';
+import Inbox from './Inbox';
 import Post from './Post';
-
 function MainContent() {
   return (
-    <main>
+    <section className={style.homesection}>
       <QuickRecap />
-      <Announcements />
       <Post />
-    </main>
+      <Inbox />
+      <Announcements />
+    </section>
   );
 }
 
