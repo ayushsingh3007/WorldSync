@@ -4,10 +4,7 @@ import style from "../Style/login.module.css"
 
 const Login = () => {
   return (
-    <div >
-        
-       
-    </div>
+    <div > </div>
   )
 }
 
