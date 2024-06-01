@@ -4,7 +4,7 @@ import { IoSearch } from "react-icons/io5";
 import style from '../Style/header.module.css';
 import { FaSignInAlt } from 'react-icons/fa';
 // import { RiAccountCircleLine } from "react-icons/ri";
-// import { Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 function Header() {
   return (
