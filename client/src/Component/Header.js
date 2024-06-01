@@ -24,11 +24,6 @@ function Header() {
             <FaSignInAlt /> Login
           </button>
           </Link>
-          <Link to={"/register"}>
-          <button className={style.loginbtn}>
-            <FaSignInAlt /> Register
-          </button>
-          </Link>
         </div>
       </nav>
     </header>

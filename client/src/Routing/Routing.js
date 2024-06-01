@@ -4,7 +4,6 @@ import Home from '../Pages/Home/Home'
 import Header from '../Component/Header'
 import Dashboard from '../Dashboard/Dashboard'
 import Login from '../Pages/Login'
-import Register from '../Pages/Register'
 function Routing() {
   return (
     <>
@@ -17,7 +16,6 @@ function Routing() {
        <Route path="/" element={<Home/>}/>
        <Route path="/dashboard" element={<Dashboard/>}/>
        <Route path='/login' element={<Login/>} />
-       <Route path='/register' element={<Register/>} />
 
 
     </Routes>
