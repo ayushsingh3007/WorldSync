@@ -87,11 +87,13 @@
     font-size: 1.5em;
     color: #fff;
     margin-right: 20px;
+    cursor: pointer;
   }
   
   .loginbtn {
     background-color: #fff;
     color: #006666;
+    text-decoration: none;
     border: none;
     border-radius: 20px;
     padding: 8px 15px;
