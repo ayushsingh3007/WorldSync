@@ -1,13 +1,9 @@
 *{
-    padding: 0px;
-    margin: 0px;
+  padding: 0px;
+  margin: 0px;
   font-family: "Reddit Sans", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
-}
-
-.login_component{
-    /* background-color: green; */
 }
 
 .login_banner{
